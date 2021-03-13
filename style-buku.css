@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+    position: relative;
+    left: 250px;
+}
+
+#tambah-buku ul li {
+    list-style-type: none;
+}
+
+#tambah-buku ul {
+    margin: 0;
+    padding: 0;
+}
+
+#tambah-buku,
+#ubah-buku {
+    margin-bottom: 20px;
+
+}
+
+#tambah-buku button[type="submit"],
+#ubah-buku button[type="submit"] {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    background: rgb(69, 135, 223);
+    border-radius: 5px;
+    color: white;
+}
+
+#tambah-buku button[name="batal"] {
+    background: rgb(211, 79, 79)
+}
+
+#tambah-buku table tr td,
+#ubah-buku table tr td {
+    padding-bottom: 10px;
+}
+
+#tambah-buku button[type="submit"]:hover,
+#ubah-buku button[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(47, 119, 212);
+}
+
+#tambah-buku button[name="batal"]:hover {
+    background: rgb(211, 67, 67)
+}
+
+#data-buku {
+    border-collapse: collapse;
+}
+
+#data-buku #ubah {
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgb(35, 133, 224);
+    color: white;
+    border-radius: 5px;
+}
+
+#data-buku #hapus {
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgb(224, 35, 51);
+    color: white;
+    border-radius: 5px;
+}
+
+#tambah-buku input[type="text"] {
+    padding: 5px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 5px;
+}
+
+#data-buku #status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.cari {
+    margin-bottom: 20px;
+}
+
+.container .isi-table {
+    height: 250px;
+    overflow: scroll;
+}
+
+.bungkus-table {
+    background: white;
+    padding: 20px;
+    max-width: 1020px;
+}
+
+.bungkus-table input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 3px;
+    font-size: 1em;
+}
+
+#data-buku tr:nth-child(even) {
+    background: #eee;
+}
+
+#tambah-buku #Tahun,
+#tambah-buku select,
+#tambah-buku input {
+    border: 1px solid rgb(151, 151, 151);
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+tr th {
+    background: #8e18ee;
+    color: white;
+}
+
+#data-buku tr td {
+    padding: 10px 40px;
+}
+
+#data-buku tr td {
+    /* border-bottom: 1px solid #b3b3b3; */
+    color: #555;
+}
