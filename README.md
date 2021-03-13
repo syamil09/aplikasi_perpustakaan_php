@@ -3,3 +3,4 @@
 <p align="center">Aplikasi perpustakaan sederhana yang dibuat dengan php native</p>
 
 ![Login Page](https://github.com/syamil09/aplikasi_perpustakaan_php/blob/main/img/perpus-login.png?raw=true)
+![dashboard](https://github.com/syamil09/aplikasi_perpustakaan_php/blob/main/img/perpus-dashboard.png?raw=true)
